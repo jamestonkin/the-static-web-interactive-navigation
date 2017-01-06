@@ -1,0 +1,35 @@
+nav {
+  background-color: gold;
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  width: 100%;
+}
+
+nav li {
+  float: left;
+  width: 20%;
+}
+
+nav li a {
+  display: block;
+  color: #811e0a;
+  padding: 10px 10px;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+
+nav a:hover {
+  color: purple;
+  background: pink;
+}
+
+nav li:active {
+  display: block;
+  padding-right: 5px;
+  padding-left: 5px;
+}
